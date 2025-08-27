@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.apexcharts-legend-series{
+    background-color:white;
+    padding: 3px ;
+    border-radius: 10px;
+    z-index: -1;
+
+}
+tspan{
+    fill: var(--dark);
+}
+text {
+    fill: var(--dark);
+}
+.analytics{
+    width: 100%;
+    height: 100vh;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+	padding: 36px 24px;
+	font-family: var(--poppins);
+	max-height: calc(100vh - 56px);
+	overflow-y: auto;
+    background-color: var(--light);
+    
+   
+}
+.analytics h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.analytics .part1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    gap: 30px;
+    background-color: var(--grey);
+    
+    padding: 30px;
+    border-radius: 1rem;
+}
+.student-indicators-part1 h3{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 400;
+    background: var(--blue)
+}
+.student-indicators-part1{
+    display: flex;
+    justify-content: flex-end;
+}
+.student-indicators-part2 span{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 2px 13px;
+    border-radius: 15px;
+    color: var(--dark);
+    background: var(--light);
+}
+.student-indicators-part2 span:hover{
+    color: var(--blue);
+}
+
+.student-indicators-part2{
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+
+}
+.student-indicators-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.student-indicators-part3{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color:var(--light);
+    border-radius: 1rem;
+   
+}
+.student-indicators-part3 h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark);
+
+
+}
+.student-indicators-part3 #chart {
+    color: var(--dark);
+
+}
+
+.project-indicators-part1 h3{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 400;
+    background: var(--blue)
+}
+.project-indicators-part1{
+    display: flex;
+    justify-content: flex-end;
+}
+.project-indicators-part2 span{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 2px 13px;
+    border-radius: 15px;
+    color: var(--dark);
+    background: var(--light);
+}
+.project-indicators-part2 span:hover{
+    color: var(--blue);
+}
+
+.project-indicators-part2{
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+
+}
+.project-indicators-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.project-indicators-part3{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color:var(--light);
+    border-radius: 1rem;
+   
+}
+.project-indicators-part3 h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark);
+
+
+}
+.project-indicators-part3 #chart {
+    color: var(--dark);
+
+}
+
+
+.dept-indicators-part1 h3{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 400;
+    background: var(--blue)
+}
+.dept-indicators-part1{
+    display: flex;
+    justify-content: flex-end;
+}
+.dept-indicators-part2 span{
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 2px 13px;
+    border-radius: 15px;
+    color: var(--dark);
+    background: var(--light);
+}
+.dept-indicators-part2 span:hover{
+    color: var(--blue);
+}
+
+.dept-indicators-part2{
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
+
+}
+.dept-indicators-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+.dept-indicators-part3{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color:var(--light);
+    border-radius: 1rem;
+   
+}
+.dept-indicators-part3 h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark);
+
+
+}
+.dept-indicators-part3 #chart {
+    color: var(--dark);
+
+}
+.metrics-indicators-part1{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.metrics-indicators-part1 h3{
+   
+        cursor: pointer;
+        margin-right: 1rem;
+        padding: 3px 10px;
+        border-radius: 15px;
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 400;
+        background: var(--blue)
+  
+}
+.metrics-indicators-part3{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color:var(--light);
+    border-radius: 1rem;
+   
+}
+.metrics-indicators-part3 h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark);
+
+
+}
+.metrics-indicators-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.collegemetrics-indicators-part1{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.collegemetrics-indicators-part1 h3{
+   
+        cursor: pointer;
+        margin-right: 1rem;
+        padding: 3px 10px;
+        border-radius: 15px;
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 400;
+        background: var(--blue)
+  
+}
+.collegemetrics-indicators-part3{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background-color:var(--light);
+    border-radius: 1rem;
+   
+}
+.collegemetrics-indicators-part3 h4{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark);
+
+
+}
+.collegemetrics-indicators-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet"
+	href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+	<link rel="stylesheet" href="./css/dashboard.css">
+
+	<title>Innovatia</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar" class="hide">
+		<a href="./index.html" class="brand">
+			<i class='bx bxs-dashboard'></i>
+			<span class="text">Innovatia</span>
+		</a>
+		
+		<ul class="side-menu">
+			<li >
+				<a href="./index.html" > <!-- matches contentMap['home'] -->
+
+					<i class='bx bxs-home-alt-2'></i>
+					<span class="text">Home</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="./dashboard.html" >
+					<i class='bx bxs-dashboard'  ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li >
+				<a href="./recentpublications.html" >
+					<i class='bx bxs-folder-open' ></i>
+					<span class="text">Publications</span>
+				</a>
+			</li>
+			<li>
+				<a href="./leaderboard.html" >
+					<i class='bx bxs-bar-chart-alt-2'></i>
+					<span class="text">Leaderboard</span>
+				</a>
+			</li>
+			
+			
+		
+			
+			<li>
+				<a href="./recentachievements.html" >
+					<i class='bx bxs-award'></i>
+					<span class="text">Achievements</span>
+				</a>
+			</li>
+			<li>
+				<a href="./recentgrants.html" >
+					<i class='bx bxs-bank' ></i>
+					<span class="text">Grants</span>
+				</a>
+			</li>
+			<li>
+				<a href="./recentstartupincubated.html" >
+					<i class='bx bxs-buildings'></i>
+					<span class="text">startupincubated</span>
+				</a>
+			</li>
+			
+		</ul>
+		<ul class="side-menu" >
+			<li>
+				<a href="./Settings.html">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="../select.html" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="notification.html" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			
+				<!-- Assuming this is in your navbar -->
+<nav>
+    <div class="profile" id="profile">
+        <img src="../img/people.png" alt="Profile Picture" class="profile-img">
+    </div>
+    <div id="profileMenu" class="profile-menu">
+        <ul>
+            <li><a href="#">Profile</a></li>          
+            <li><a href="../select.html">Logout</a></li>
+        </ul>
+    </div>
+</nav>
+
+			
+
+
+
+
+
+
+
+
+
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+				<div class="right">
+					<div class="right-part1">
+						<a href="./studentanalytics.html">
+							<i class='bx bxs-doughnut-chart' ></i>
+							<span class="text">Analytics</span>
+						</a>
+						<a href="./studentawards.html" >
+							<i class='bx bxs-award'></i>
+							
+							<span class="text">Awards</span>
+						</a>
+						<a href="./studentgrants.html" >
+							<i class='bx bxs-bank' ></i>
+							
+							<span class="text">Grants</span>
+						</a>
+						
+						<a href="./studentstartupincubated.html" >
+							<i class='bx bxs-buildings'></i>
+							
+							
+							<span class="text">Startup incubated</span>
+						</a>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="studentprofile">
+				<div class="studentprofile-top">
+					
+					<div class="studentprofile-left">
+						<h3>Profile</h3>
+						<div class="student-icons">
+							<a href="#" class="linkedin-link" target="_blank"><i class="bx bxl-linkedin"></i></a>
+							<a href="#" class="github-link" target="_blank"><i class="bx bxl-github"></i></a>
+							<a href="#" class="facebook-link" target="_blank"><i class="bx bxl-facebook"></i></a>
+						</div>
+						
+					</div>
+					<div class="studentprofile-right">
+						<i class='bx bxs-edit-alt'></i>
+					</div>
+				</div>
+
+				<div class="studentprofile-parts">
+					<div class="studentprofile-part1">
+					
+					</div>
+					<div class="studentprofile-part2">
+						<div class="student-usernamepic">
+							<span><img src="../img/people.png"></span>
+							<p> Vinay Sriramoju</p>
+							
+							
+
+
+						</div>
+						<div class="student-data1">
+							<p> <span><i class='bx bxs-invader' ></i></span>cse</p>
+							<p> <span><i class='bx bxs-hard-hat' ></i></span>22N01A0564</p>
+
+						</div>
+						<div class="student-data2">
+							<p> <i class='bx bxs-award' ></i></span> Best Innovation Award by     <span><i class='bx bxl-google' ></i></span></p>
+							<p> <i class='bx bxs-award' ></i></span> Best Intern Award by <span><i class='bx bxl-facebook' ></i></span></p>
+
+						</div>
+						<div class="student-data3">
+							<p> <i class='bx bx-badge'></i> Golden Badge 2024</p>
+							<p> <i class='bx bx-badge'></i> Silver Badge 2021 </p>
+						</div>
+						<div class="student-data4">
+							<p><i class="ri-trophy-fill"></i> SIH Winner 2024</p>
+							<p> <i class="ri-trophy-fill"></i> SCCE Hackathon Winner 2023 </p>
+						</div>
+						<div class="student-data5">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim modi sequi, repellendus nobis temporibus voluptatem. Ducimus officia repellendus repudiandae distinctio quae commodi. Odit provident, nulla facere nihil odio quam at, mollitia, illum suscipit ratione nesciunt vel quae? Iste, iure doloribus consequatur sunt modi adipisci tenetur! Ad fugit officia sed incidunt! Repellat quo voluptatum cum consectetur doloremque ipsum, ducimus sit beatae adipisci non perferendis nisi porro ex quasi id, nulla aut similique alias natus temporibus aperiam esse facere exercitationem? Ex eum perferendis odio facilis. Sunt esse nostrum qui, optio eos doloribus?</p>
+						</div>
+						
+
+						
+	
+					</div>
+				</div>
+				<!-- Edit Form (Initially Hidden) -->
+<div id="edit-form-container" style="display: none;">
+    <form id="edit-form">
+        <h3>Edit Profile</h3>
+
+        <!-- Links Section -->
+        <label for="github-link">GitHub:</label>
+        <input type="url" id="github-link" placeholder="Enter GitHub URL" required>
+        <label for="linkedin-link">LinkedIn:</label>
+        <input type="url" id="linkedin-link" placeholder="Enter LinkedIn URL" required>
+        <label for="facebook-link">Facebook:</label>
+        <input type="url" id="facebook-link" placeholder="Enter Facebook URL" required>
+
+        <!-- Images Section -->
+        <label for="background-image">Background Image:</label>
+        <input type="url" id="background-image" placeholder="Enter Background Image URL" required>
+        <label for="profile-image">Profile Image:</label>
+        <input type="url" id="profile-image" placeholder="Enter Profile Image URL" required>
+
+        <!-- Department and Hall Ticket -->
+        <label for="department">Department:</label>
+        <input type="text" id="department" placeholder="Enter Department" required>
+        <label for="hall-ticket">Hall Ticket Number:</label>
+        <input type="text" id="hall-ticket" placeholder="Enter Hall Ticket Number" required>
+
+        <!-- Dynamic Awards Section -->
+        <div id="awards-section">
+            <h4>Awards:</h4>
+            <div class="dynamic-field">
+                <input type="text" name="award[]" placeholder="Enter Award" required>
+                <button type="button" class="add-field">+</button>
+            </div>
+        </div>
+
+        <!-- Dynamic Wins Section -->
+        <div id="wins-section">
+            <h4>Wins:</h4>
+            <div class="dynamic-field">
+                <input type="text" name="win[]" placeholder="Enter Win" required>
+                <button type="button" class="add-field">+</button>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <label for="description">Description:</label>
+        <textarea id="description" rows="5" placeholder="Enter Description" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+				
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bx-folder'></i>
+					<span class="text">
+						<h3>11</h3>
+						<p>Projects</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bx-file-blank'></i>
+					<span class="text">
+						<h3>28</h3>
+						<p>Research papers</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-notepad'></i>
+					<span class="text">
+						<h3>43</h3>
+						<p>Patents</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-bank' ></i>
+					
+					<span class="text">
+						<h3>4</h3>
+						<p>Grants</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-buildings'></i>
+					<span class="text">
+						<h3>2</h3>
+						<p>startups incubated</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-award'></i>
+					
+					<span class="text">
+						
+						<h3>400</h3>
+						<p>Awards</p>
+					</span>
+				</li>
+				
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Recent Projects</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>S.no</th>
+								<th>User</th>
+								<th>User Id</th>
+
+								<th>Date Order</th>
+								<th>Project Title</th>
+								<th>Team</th>
+								
+								<th>Dept</th>
+								<th>Status</th>
+								<th>project type</th>
+								<th>Rating</th>
+								<th>Edit</th>
+								<th>Delete</th>
+
+								
+								
+								
+								
+								
+								
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr onclick="location.href='viewproject.html'" style="cursor: pointer;">
+
+								<td>
+									<span>1</span>
+								</td>
+								<td class="std-profile">
+									
+									<p> <span><img src="../img/people.png"></span>Vinay Sriramoju</p>
+								</td>
+								<td>22N01a0564</td>
+								<td>01-10-2021</td>
+								<td>
+									<span>Hello1</span>
+								</td>
+								<td>
+									<span>SCCE CODERS</span>
+								</td>
+								<td>
+									cse
+								</td>
+								<td><span class="status completed">Completed</span></td>
+
+								<td><span class="project-type">Project</span></td>
+								<td>
+									
+									<span class="star-rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</td>
+								<td>
+									<a href="publications.html"><i class="ri-edit-fill"></i></a>
+								</td>
+								<td>
+									<a href="#"><i class="ri-delete-bin-6-line"></i></a>
+								</td>
+								
+
+							</tr>
+							<tr onclick="location.href='viewproject.html'" style="cursor: pointer;">
+
+								<td>
+									<span>2</span>
+								</td>
+								<td class="std-profile">
+									
+									<p> <span><img src="../img/people.png"></span>Vinay Sriramoju</p>
+								</td>
+								<td>22N01a0564</td>
+								<td>01-10-2021</td>
+								<td>
+									<span>Hello1</span>
+								</td>
+								<td>
+									<span>SCCE CODERS</span>
+								</td>
+								<td>
+									cse
+								</td>
+								<td><span class="status pending">Pending</span></td>
+
+								<td><span class="project-type">Research</span></td>
+								<td>
+									
+									<span class="star-rating">
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</td>
+								<td>
+									<a href="publications.html"><i class="ri-edit-fill"></i></a>
+								</td>
+								<td>
+									<a href="#"><i class="ri-delete-bin-6-line"></i></a>
+								</td>
+							
+								
+
+							</tr>
+							
+							<tr onclick="location.href='viewproject.html'" style="cursor: pointer;">
+
+								<td>
+									<span>3</span>
+								</td>
+								<td class="std-profile">
+									
+									<p> <span><img src="../img/people.png"></span>Vinay Sriramoju</p>
+								</td>
+								<td>22N01a0564</td>
+								<td>01-10-2021</td>
+								
+								<td>
+									<span>Hello1</span>
+								</td>
+								<td>
+									<span>SCCE CODERS</span>
+								</td>
+								<td>
+									cse
+								</td>
+								<td><span class="status process">Accepted</span></td>
+
+								<td>
+									<span class="project-type">Project</span>
+								</td>
+								<td>
+									
+									<span class="star-rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</td>
+								<td>
+									<a href="publications.html"><i class="ri-edit-fill"></i></a>
+								</td>
+								<td>
+									<a href="#"><i class="ri-delete-bin-6-line"></i></a>
+								</td>
+								
+
+							</tr>
+							<tr onclick="location.href='viewproject.html'" style="cursor: pointer;">
+
+								<td>
+									<span>4</span>
+								</td>
+								<td class="std-profile">
+									
+									<p> <span><img src="../img/people.png"></span>Vinay Sriramoju</p>
+								</td>
+								<td>22N01a0564</td>
+								<td>01-10-2021</td>
+
+								<td>
+									<span>Hello1</span>
+								</td>
+								<td>
+									<span>SCCE CODERS</span>
+								</td>
+								<td>
+									cse
+								</td>
+								<td><span class="status pending">Rejected</span></td>
+
+
+								<td><span class="project-type">Patent</span></td>
+								<td>
+									
+									<span class="star-rating">
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</td>
+								
+								<td>
+									<a href="publications.html"><i class="ri-edit-fill"></i></a>
+								</td>
+								<td>
+									<a href="#"><i class="ri-delete-bin-6-line"></i></a>
+								</td>
+								
+								
+
+							</tr>
+							<tr onclick="location.href='viewproject.html'" style="cursor: pointer;">
+
+								<td>
+									<span>5</span>
+								</td>
+								<td class="std-profile">
+									
+									<p> <span><img src="../img/people.png"></span>Vinay Sriramoju</p>
+								</td>
+								<td>22N01a0564</td>
+								<td>01-10-2021</td>
+								<td>
+									<span>Hello1</span>
+								</td>
+								<td>
+									<span>SCCE CODERS</span>
+								</td>
+								<td>
+									cse
+								</td>
+								<td><span class="status completed">Completed</span></td>
+
+								<td>
+									<span class="project-type">Project</span>
+								</td>								
+								<td>
+									
+									<span class="star-rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</span>
+								</td>
+								<td>
+									<a href="publications.html"><i class="ri-edit-fill"></i></a>
+								</td>
+								<td>
+									<a href="#"><i class="ri-delete-bin-6-line"></i></a>
+								</td>
+								
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+			
+		</main>
+		<!-- MAIN -->
+	</section>
+	
+
+	<script src="./js/script.js"></script>
+	<script src="./js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.hidden {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.popup-content form input,
+.popup-content form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popup-content form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup-content form button:hover {
+    background-color: #0056b3;
+}

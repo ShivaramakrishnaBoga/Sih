@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet"
+	href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./css/recentachievements.css">
+    <link rel="stylesheet" href="./css/studentstartupincubated.css">
+    <link rel="stylesheet" href="./css/collegestartupincubated.css">
+
+	<title>Innovatia</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar" class="hide">
+		<a href="./index.html" class="brand">
+			<i class='bx bxs-dashboard'></i>
+			<span class="text">Innovatia</span>
+		</a>
+		
+		<ul class="side-menu">
+			<li >
+				<a href="./index.html" > <!-- matches contentMap['home'] -->
+
+					<i class='bx bxs-home-alt-2'></i>
+					<span class="text">Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="./dashboard.html" >
+					<i class='bx bxs-dashboard'  ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li >
+				<a href="./recentpublications.html" >
+					<i class='bx bxs-folder-open' ></i>
+					<span class="text">Publications</span>
+				</a>
+			</li>
+			<li>
+				<a href="./leaderboard.html" >
+					<i class='bx bxs-bar-chart-alt-2'></i>
+					<span class="text">Leaderboard</span>
+				</a>
+			</li>
+			
+			
+		
+			
+			<li>
+				<a href="./recentachievements.html" >
+					<i class='bx bxs-award'></i>
+					<span class="text">Achievements</span>
+				</a>
+			</li>
+			<li>
+				<a href="./recentgrants.html" >
+					<i class='bx bxs-bank' ></i>
+					<span class="text">Grants</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="./recentstartupincubated.html" >
+					<i class='bx bxs-buildings'></i>
+					<span class="text">startupincubated</span>
+				</a>
+			</li>
+			
+		</ul>
+		<ul class="side-menu" >
+			<li>
+				<a href="./Settings.html">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="../select.html" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="notification.html" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			
+				<!-- Assuming this is in your navbar -->
+<nav>
+    <div class="profile" id="profile">
+        <img src="../img/people.png" alt="Profile Picture" class="profile-img">
+    </div>
+    <div id="profileMenu" class="profile-menu">
+        <ul>
+            <li><a href="#">Profile</a></li>          
+            <li><a href="../select.html">Logout</a></li>
+        </ul>
+    </div>
+</nav>
+
+			
+
+
+
+
+
+
+
+
+
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Startup Incubated</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Startup Incubated</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="index.html">Home</a>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="right">
+					<div class="right-part1">
+						<a href="./startupincubated.html">
+							<i class='bx bx-cloud-upload'></i>
+							<span class="text">Enroll Your Startup</span>
+						</a>
+					</div>
+						
+					
+				</div>
+				
+			</div>
+
+			<ul class="box-info">
+				
+			
+					
+				<li>
+					<i class='bx bxs-buildings'></i>
+					<span class="text">
+						<h3>2</h3>
+						<p>startups incubated</p>
+					</span>
+				</li>
+				
+			</ul>
+
+
+			<div class="startupincubated">
+                <h1  class="startupincubated-title"> Startups incubated</h1>
+                <div class="startups">
+					<div class="studentprofile" onclick="location.href='viewstartupincubated.html';" style="cursor: pointer;">
+							<div class="studentprofile-top">
+								
+								<div class="studentprofile-left">
+									<h3>Innovation Hub</h3>
+									
+									
+								</div>
+								
+							</div>
+		
+							<div class="studentprofile-parts">
+								<div class="studentprofile-part1">
+									<img src="https://images.unsplash.com/photo-1618005479492-bc36dc8aeaf2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; alt="">
+									<div class="project-links">
+										<a href="#" ><i class="bx bxl-github"></i>GitHub</a>
+										<a href="#" > <i class='bx bxl-unity'></i>Live Demo</a>
+				
+				
+				
+									</div>
+									
+								
+								</div>
+
+								<div class="studentprofile-part2">
+									<div class="student-usernamepic">
+										<div class="part1">
+											<span><img src="../img/people.png"></span>
+											<p> Vinay Sriramoju</p>
+											<span class="date-uploaded"><p>posted on 21-06-2024</p></span>
+										</div>
+										<div class="part2">
+											<a href="startupincubated.html"><i class="ri-edit-fill"></i></a>
+											<a href="#"><td><i class="ri-delete-bin-6-line"></i></td></a>
+											
+	
+										</div>
+					
+										
+			
+			
+									</div>
+									<div class="student-data1">
+										<p> <span><i class='bx bxs-invader' ></i></span>cse</p>
+										<p> <span><i class='bx bxs-hard-hat' ></i></span>22N01A0564</p>
+										<p><span><i class='bx bxl-mongodb'></i></span> SCCE CODE CONQOURER</p>
+										<p ><i class='bx bxs-bank' ></i></span>Initial Grant: 200000$</p>
+
+
+			
+									</div>
+									<div class="student-data2">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repudiandae quos maiores minus eveniet, doloremque tempora, earum corrupti vero perferendis laudantium, dolore tenetur. Culpa aperiam accusantium, odit distinctio officia veritatis! <a href="viewstartupincubated.html">read more</a></p>
+			
+									</div>
+									
+								
+									
+			
+									
+				
+								</div>
+							</div>
+                   
+                    	</div>
+					
+						<div class="studentprofile" onclick="location.href='viewstartupincubated.html';" style="cursor: pointer;">
+							<div class="studentprofile-top">
+							
+							<div class="studentprofile-left">
+								<h3>Evolvix</h3>
+								
+								
+							</div>
+							
+						</div>
+		
+						<div class="studentprofile-parts">
+							<div class="studentprofile-part1">
+								<img src="https://images.unsplash.com/photo-1618005479492-bc36dc8aeaf2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"; alt="">
+								<div class="project-links">
+									<a href="#" ><i class="bx bxl-github"></i>GitHub</a>
+									<a href="#" > <i class='bx bxl-unity'></i>Live Demo</a>
+			
+			
+			
+								</div>
+								
+							
+							</div>
+
+							<div class="studentprofile-part2">
+								<div class="student-usernamepic">
+									<div class="part1">
+										<span><img src="../img/people.png"></span>
+										<p> Vinay Sriramoju</p>
+										<span class="date-uploaded"><p>posted on 21-06-2024</p></span>
+									</div>
+									<div class="part2">
+										<a href="startupincubated.html"><i class="ri-edit-fill"></i></a>
+										<a href="#"><td><i class="ri-delete-bin-6-line"></i></td></a>
+										
+
+									</div>					
+									
+		
+		
+								</div>
+								<div class="student-data1">
+									<p> <span><i class='bx bxs-invader' ></i></span>cse</p>
+									<p> <span><i class='bx bxs-hard-hat' ></i></span>22N01A0564</p>
+									<p><span><i class='bx bxl-mongodb'></i></span> SCCE CODE CONQOURER</p>
+									<p ><i class='bx bxs-bank' ></i></span>Initial Grant: 200000$</p>
+
+
+		
+								</div>
+								<div class="student-data2">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius repudiandae quos maiores minus eveniet, doloremque tempora, earum corrupti vero perferendis laudantium, dolore tenetur. Culpa aperiam accusantium, odit distinctio officia veritatis! <a href="viewstartupincubated.html">read more</a></p>
+		
+								</div>
+								
+							
+								
+		
+								
+			
+							</div>
+						</div>
+                   
+                    </div>
+
+                </div>
+
+            </div>
+
+
+			
+		</main>
+		<!-- MAIN -->
+	</section>
+	
+
+	<script src="./js/script.js"></script>
+	
+	
+
+</body>
+</html>
