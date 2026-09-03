@@ -35,5 +35,5 @@ def dashboard():
     return redirect(url_for('home'))
 
 if __name__ == '__main__':
-    db.create_all()  # Create tables
+    db.create_all()  # Create tables here
     app.run(debug=True)
